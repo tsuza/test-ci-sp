@@ -21,4 +21,4 @@ cd stocksoup
 wget "https://raw.githubusercontent.com/nosoop/stocksoup/master/var_strings.inc"
 wget "https://raw.githubusercontent.com/nosoop/stocksoup/master/string.inc"
 
-svn ls https://github.com/nosoop/stocksoup/tree/master/tf --depth empty
+svn ls https://github.com/nosoop/stocksoup/tree/tf --depth empty
