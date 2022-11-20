@@ -26,10 +26,10 @@ jobs:
         run: |
           mkdir scripting/include
           cd scripting/include
-          bash .github/workflows/dependencies.sh
+          bash ./.github/workflows/dependencies.sh
           cd ./
         working-directory: ./
-        
+
       - name: Compile plugins
         run: |
           mkdir plugins
