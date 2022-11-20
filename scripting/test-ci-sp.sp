@@ -1,6 +1,10 @@
 #include <sdkhooks>
 #include <sdktools>
 #include <sourcemod>
+
+#include <tf_custom_attributes>
+#include <stocksoup/var_strings>
+
 #pragma newdecls required
 #pragma semicolon 1
 
@@ -17,5 +21,6 @@ public Plugin myinfo =
 
 public void OnPluginStart()
 {
-	
+	TF2CustAttr_GetFloat(5, "test");
+	ReadIntVar("test: 4", "test");
 }
