@@ -14,7 +14,7 @@ public Plugin myinfo =
 	name = "test-ci-sp",
 	author = "Zabaniya",
 	description = "",
-	version = "1.0.0",
+	version = "1.1.0",
 	url = "https://github.com/zabaniya001/test-ci-sp"
 };
 
