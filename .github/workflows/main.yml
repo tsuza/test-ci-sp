@@ -26,7 +26,7 @@ jobs:
         run: |
           mkdir scripting/include
           cd scripting/include
-          bash ~/.github/workflows/dependencies.sh
+          bash ../../.github/workflows/dependencies.sh
           cd ./
         working-directory: ./
 
