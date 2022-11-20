@@ -34,6 +34,14 @@ jobs:
           echo ${{ steps.setup_sp.outputs.plugin-version }}
         working-directory: ${{ env.SCRIPTS_PATH }}
 
+      - name: Download plugin dependencies
+        run: |
+          mkdir scripting/include
+          cd scripting/include
+          bash .github/workflows/dependencies.sh
+          cd ./
+        working-directory: ./
+
       - name: Changelog
         id: changelog
         uses: mindsers/changelog-reader-action@v2.0.0
